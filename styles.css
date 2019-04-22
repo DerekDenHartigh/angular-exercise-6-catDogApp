@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: space-around;
+    align-content: center;
+    align-items: center;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    height: 100vh;
+    width: 100vw;
+    background-color: lightyellow;
+}
+#header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    justify-items: space-around;
+    align-content: center;
+    align-items: center;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    justify-items: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+dog{
+    color: orange;
+}
+
+cat{
+    color: blue;
+}
+
+home{
+    color: green;
+}
+h1{
+    font-size: 3em;
+    font-weight: bolder;
+}
+img{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+#list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    justify-items: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.link-box{
+
+}
+.cat{
+    text-align: center;
+}
+.dog{
+    text-align: center;
+}
+
+.link{
+    font-size: 3em;
+    padding: 10px;
+    background-color: pink;
+    border-radius: 15px;
+    border: solid black 3px;
+} 
+
+.home{
+    display: flex;
+}
+#home{
+    display: flex;
+}

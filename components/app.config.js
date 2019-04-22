@@ -9,7 +9,10 @@ angular.module("catDogApp")
     .when("/cat", {
         template: "<cat></cat>"
     })
+    .when("/home", {
+        template: "<home></home>"
+    })
     .otherwise({
-        redirectTo: "/dog"
+        redirectTo: "/home"
     })
 }]);

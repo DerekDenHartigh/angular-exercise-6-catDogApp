@@ -6,14 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Angular Exercise 6 - catDogApp</title>
   <link rel="stylesheet" href="CSS Reset.css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
         <nav id="header">
+            <ul id="list">
+                <li class="link-box cat"><a class="link cat" href="#!/cat">Cat</a></li>
+                <li class="link-box home"><a class="link home" href="#!/home"><img id="home" src="https://66.media.tumblr.com/3a6abdf24635f396fa12935296d2895f/tumblr_p3sb4qdUi71rchngto1_500.jpg"></a></li>
+                <li class="link-box dog"><a class="link dog" href="#!/dog">Dog</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -27,6 +31,7 @@
 
 
   <script src="https://code.angularjs.org/1.7.8/angular.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.js"></script> <!-- dont forget to attach your ng-route -->
   <script src="app.module.js"></script>
   <script src="components/dog/dog.js"></script>
   <script src="components/cat/cat.js"></script>
