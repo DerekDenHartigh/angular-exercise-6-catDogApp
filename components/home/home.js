@@ -13,7 +13,9 @@ angular
 .component('home', {
     template: `
     <h1 class="home">Home Sweet Home</h1>
-    <img src="./assets/catdog.jpg"/>
+    <img src="./assets/catdog.jpg" />
+    <img src="./assets/home.gif" />
+    <img src="https://media1.tenor.com/images/f9e8420b482a2e3c7c32a4781d3e772f/tenor.gif?itemid=9328017" />
         `,
     controller: homeController
 });

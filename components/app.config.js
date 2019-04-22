@@ -3,14 +3,14 @@
 angular.module("catDogApp")
 .config(["$routeProvider", ($routeProvider) => {
     $routeProvider
+    .when("/home", {
+        template: "<home></home>"
+    })
     .when("/dog", {
         template: "<dog></dog>"
     })
     .when("/cat", {
         template: "<cat></cat>"
-    })
-    .when("/home", {
-        template: "<home></home>"
     })
     .otherwise({
         redirectTo: "/home"
